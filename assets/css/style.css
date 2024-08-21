@@ -17,6 +17,11 @@
     src: url(../fonts/Raleway-Bold.ttf) format("truetype"), 
 }
 
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+}
 
 body{
     display: flex;
@@ -30,3 +35,4 @@ header,main,footer{
     width: 1160px;
     background-color: #ffffff;
 }
+
