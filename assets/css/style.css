@@ -9,12 +9,12 @@
 @font-face {
     font-family: "Raleway-italic";
     src: url(../fonts/Raleway-Italic-VariableFont_wght.woff);
-    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf) format("truetype"), 
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf) format("truetype");
 }
 @font-face {
     font-family: "Raleway-bold";
     src: url(../fonts/Raleway-Bold.woff);
-    src: url(../fonts/Raleway-Bold.ttf) format("truetype"), 
+    src: url(../fonts/Raleway-Bold.ttf) format("truetype");
 }
 
 * {
@@ -30,9 +30,16 @@ h1{
 h2{
     font-size: 1.5rem;
 }
-
 h3{
     font-size: 1.3rem;
+}
+
+h1,h2,h3{
+    font-family: "Lato"
+}
+
+span,p{
+    font-family: "Raleway-regular";
 }
 
 body{
@@ -48,3 +55,19 @@ header,main,footer{
     background-color: #ffffff;
 }
 
+.content-bold{
+    font-family: "Raleway-bold";
+    font-size: 0.9rem;
+}
+.main-desc .content-bold{
+    width: 75%;
+}
+
+.content-italic{
+    font-family: "Raleway-italic";
+    font-size: 0.8rem;
+}
+
+.content-17abb3{
+    color: #17abb3;
+}

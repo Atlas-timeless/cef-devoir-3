@@ -97,18 +97,21 @@ section{
     justify-content: space-between;
 }
 
-
+.aside-desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 25px;
+}
 
 hr{
     margin: 0 auto;
-    width: 75%;
     margin: 5px;
     opacity: 50%;
 }
 footer{
     background-color: #17abb3;
     color: #ffffff;
-    font-style: italic;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,6 +127,9 @@ footer{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+
+
 
 a{
     color: #ffffff;
