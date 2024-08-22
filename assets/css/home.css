@@ -32,6 +32,10 @@ h1{
 h2{
     margin: 0;
 }
+h3{
+    padding: 5px;
+}
+
 
 .header-content-datas{
     display: flex;
@@ -59,12 +63,6 @@ h2{
 main{
     display: flex;
     flex-direction: row;
-}
-
-
-h3{
-    padding: 5px;
-    color: #17abb3;
 }
 aside{
     background-color: #e3e3e3;
@@ -128,7 +126,9 @@ footer{
     margin-right: 10px;
 }
 
-
+.footer-update{
+    color: #ffffff;
+}
 
 
 a{
