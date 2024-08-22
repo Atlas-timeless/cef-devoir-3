@@ -58,6 +58,7 @@ h3{
 
 .personnals-informations p{
     padding: 10px;
+    color: #ffffff;
 }
 
 main{
@@ -137,4 +138,15 @@ a{
 
 a:hover{
     cursor: pointer;
+}
+
+.main-desc:hover{
+    border-left: #17abb3 5px solid;
+    background-color: #e3e3e3;
+    transition: ease 100ms;
+}
+
+.footer-img-logo:hover{
+    opacity:0.5;
+    transition: ease 100ms;
 }
