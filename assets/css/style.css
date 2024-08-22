@@ -21,6 +21,18 @@
     box-sizing: border-box;
     text-decoration: none;
     margin: 0;
+    font-size: 100%;
+}
+
+h1{
+    font-size: 300%;
+}
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.3rem;
 }
 
 body{
