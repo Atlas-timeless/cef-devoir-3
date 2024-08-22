@@ -150,3 +150,44 @@ a:hover{
     opacity:0.5;
     transition: ease 100ms;
 }
+
+ul{
+    list-style-type: square; 
+    padding-left: 20px;
+}
+
+li::marker { /* Pourquoi n'y a t-il pas d'informations dans les cours à propos de ça ? ::marker */
+    color: #17abb3;
+}
+
+
+/* Pour cette étape, j'aimerais savoir comment nous sommes censé pouvoir le faire sans aller chercher sur internet ? 
+Mon niveau est bien trop bas pour savoir le faire sans cours, sans aide extérieure */
+.rating {
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    font-size: 1rem;
+}
+
+.rating::before {
+    content: "☆☆☆☆☆"; 
+    color: #17abb3;
+}
+
+.rating::after {
+    content: "★★★★★"; 
+    color: #17abb3; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+.rating[data-rating="0"]::after { width: 0; }
+.rating[data-rating="1"]::after { width: 20%; }
+.rating[data-rating="2"]::after { width: 40%; }
+.rating[data-rating="3"]::after { width: 60%; }
+.rating[data-rating="4"]::after { width: 80%; }
+.rating[data-rating="5"]::after { width: 100%; }
