@@ -22,16 +22,20 @@
     text-decoration: none;
     margin: 0;
     font-size: 100%;
+    color: #333333;
 }
 
 h1{
     font-size: 300%;
+    color: #ffffff;
 }
 h2{
     font-size: 1.5rem;
+    color: #ffffff;
 }
 h3{
     font-size: 1.3rem;
+    color: #17abb3;
 }
 
 h1,h2,h3{
